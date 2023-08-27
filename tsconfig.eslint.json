@@ -9,6 +9,14 @@
 		"libs/**/register*.mjs",
 		"libs/**/types*.js",
 		"libs/**/types*.mjs",
-		"./jest.config.ts"
+		"./jest.config.ts",
+		"plugins/**/*.ts",
+		"plugins/**/*.mjs",
+		"plugins/**/jest.config.ts",
+		"plugins/**/tests/*.js",
+		"plugins/**/register*.js",
+		"plugins/**/register*.mjs",
+		"plugins/**/types*.js",
+		"plugins/**/types*.mjs",
 	]
 }
