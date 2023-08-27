@@ -23,7 +23,7 @@
     "README.md",
     "register.js",
     "register.d.ts",
-    "package-lock.json",
+    "pnpm-lock.yaml",
     "package.json"
   ],
   "scripts": {
@@ -58,8 +58,8 @@
   "dependencies": {
     "@discordjs/collection": "^1.5.3",
     "@fastify/middie": "^8.3.0",
-    "@nezuchan/core": "^0.6.11",
-    "@nezuchan/framework": "^0.6.13",
+    "@nezuchan/core": "workspace:^",
+    "@nezuchan/framework": "workspace:^",
     "@sapphire/pieces": "^3.7.0",
     "@sapphire/result": "^2.6.4",
     "fastify": "^4.22.0"
