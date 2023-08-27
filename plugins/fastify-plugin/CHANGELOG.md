@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.9 (2023-08-27)
+
+
+### Bug Fixes
+
+* install missing deps ([6e9691f](https://github.com/NezuChan/library/commit/6e9691fa20abbf18f3c56c5bb6ce012104315889))
+
+
+### Features
+
+* add plugins package ([3a73b35](https://github.com/NezuChan/library/commit/3a73b35faa1c91c3396b3b3b5f23f1cb1b49c1ae))
+* use pnpm workspace version ([0593064](https://github.com/NezuChan/library/commit/05930644af446f6d82511c1ce4d921e9f800f150))
+
+
+
+
+
 ## [0.1.8](https://github.com/NezuChan/plugins/compare/@nezuchan/fastify-plugin@0.1.7...@nezuchan/fastify-plugin@0.1.8) (2023-08-27)
 
 
