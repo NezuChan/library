@@ -8,6 +8,11 @@
     "lint:fix": "eslint src --fix --ext ts",
     "build": "rimraf dist && tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NezuChan/library"
+  },
+  "homepage": "https://nezu.my.id",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
