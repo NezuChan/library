@@ -1,0 +1,64 @@
+{
+  "name": "@nezuchan/core",
+  "version": "0.6.10",
+  "description": "A Core Low Level API for creating Discord bots using @nezuchan/nezu-gateway.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --fix --ext ts",
+    "build": "rimraf dist && tsc"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist/**",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "package-lock.json"
+  ],
+  "author": "KagChi",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "@hazmi35/eslint-config/typescript"
+    ],
+    "rules": {
+      "class-methods-use-this": "off",
+      "@typescript-eslint/naming-convention": "off",
+      "@typescript-eslint/no-extraneous-class": "off"
+    }
+  },
+  "dependencies": {
+    "@cordis/bitfield": "^1.2.0",
+    "@discordjs/rest": "^2.0.1",
+    "@nezuchan/constants": "^0.5.6",
+    "@nezuchan/decorators": "^0.1.0",
+    "@nezuchan/utilities": "^0.5.1",
+    "@sapphire/pieces": "^3.7.0",
+    "@sapphire/result": "^2.6.4",
+    "@sapphire/snowflake": "^3.5.1",
+    "@sapphire/utilities": "^3.13.0",
+    "amqp-connection-manager": "^4.1.14",
+    "discord-api-types": "^0.37.55",
+    "ioredis": "^5.3.2",
+    "tslib": "^2.6.2"
+  }
+}
