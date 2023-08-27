@@ -1,0 +1,67 @@
+{
+  "name": "@nezuchan/tasker-plugin",
+  "version": "0.1.0",
+  "description": "A Tasker Plugins for NezuChan Framework",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./register": {
+      "import": "./register.js",
+      "types": "./register.d.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "register.js",
+    "register.d.ts",
+    "package-lock.json",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --fix --ext ts",
+    "build": "swc src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NezuChan/library"
+  },
+  "homepage": "https://nezu.my.id",
+  "type": "module",
+  "author": "KagChi",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.eslint.json"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "@hazmi35/eslint-config/typescript"
+    ],
+    "rules": {}
+  },
+  "dependencies": {
+    "@nezuchan/core": "^0.6.11",
+    "@nezuchan/framework": "^0.6.13",
+    "@sapphire/pieces": "^3.7.0",
+    "amqplib": "^0.10.3"
+  }
+}
