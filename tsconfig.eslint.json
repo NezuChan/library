@@ -1,0 +1,14 @@
+{
+	"extends": "./tsconfig.json",
+	"include": [
+		"libs/**/*.ts",
+		"libs/**/*.mjs",
+		"libs/**/jest.config.ts",
+		"libs/**/tests/*.js",
+		"libs/**/register*.js",
+		"libs/**/register*.mjs",
+		"libs/**/types*.js",
+		"libs/**/types*.mjs",
+		"./jest.config.ts"
+	]
+}
