@@ -19,11 +19,11 @@
     "@types/node": "^18.17.11",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "lerna": "^7.1.5",
     "rimraf": "^5.0.1",
     "turbo": "^1.10.13",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "workspaces": [
     "libs/*",
