@@ -157,6 +157,9 @@ importers:
 
   plugins/tasker-plugin:
     dependencies:
+      '@nezuchan/constants':
+        specifier: ^0.5.6
+        version: 0.5.6
       '@nezuchan/core':
         specifier: workspace:^
         version: link:../../libs/core
@@ -166,6 +169,9 @@ importers:
       '@sapphire/pieces':
         specifier: ^3.7.0
         version: 3.7.0
+      '@sapphire/result':
+        specifier: ^2.6.4
+        version: 2.6.4
       amqplib:
         specifier: ^0.10.3
         version: 0.10.3
