@@ -1,24 +1,5 @@
 {
-    "compilerOptions": {
-        "target": "ES2022",
-        "module": "ESNext",
-        "moduleResolution": "Node",
-        "lib": ["ES2022"],
-        "strict": true,
-        "outDir": "dist",
-        "esModuleInterop": false,
-        "allowSyntheticDefaultImports": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "skipLibCheck": true,
-        "noEmitHelpers": true,
-        "importHelpers": true,
-        "resolveJsonModule": true,
-        "strictNullChecks": true,
-        "typeRoots": ["node_modules/@types", "src/typings"],
-        "declaration": true,
-        "declarationMap": true
-    },
+    "extends": "../../tsconfig.json",
     "exclude": ["node_modules", "node_modules/**/**.d.ts"],
     "include": ["src/**/**.ts", "src/**/**.json", "tsup.config.ts"],
 }
