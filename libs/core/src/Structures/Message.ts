@@ -1,11 +1,15 @@
 /* eslint-disable max-len */
-import { APIAttachment, APIEmbed, APIMessage, APIMessageComponent, APIMessageReference, APIReaction, APIStickerItem, GatewayMessageCreateDispatchData, GatewayMessageDeleteDispatch, GatewayMessageUpdateDispatch, RESTPatchAPIChannelMessageJSONBody, Routes } from "discord-api-types/v10";
+import { APIAttachment, APIEmbed, APIMessage, APIMessageComponent, APIMessageReference, APIReaction, APIStickerItem, GatewayMessageCreateDispatchData, GatewayMessageDeleteDispatch, GatewayMessageUpdateDispatch, MessageType, RESTPatchAPIChannelMessageJSONBody, Routes } from "discord-api-types/v10";
 import { Base } from "./Base.js";
 import { Guild } from "./Guild.js";
 import { User } from "./User.js";
 import { GuildMember } from "./GuildMember.js";
 
 export class Message extends Base<APIMessage | GatewayMessageCreateDispatchData | GatewayMessageDeleteDispatch | GatewayMessageUpdateDispatch> {
+    public get type(): MessageType {
+        return "type" in this.data ? this.data.type : MessageType.Default;
+    }
+
     public get content(): string {
         return "content" in this.data ? this.data.content : "";
     }

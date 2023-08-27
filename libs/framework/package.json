@@ -1,6 +1,6 @@
 {
   "name": "@nezuchan/framework",
-  "version": "0.6.12",
+  "version": "0.6.13",
   "description": "A Commands framework for @nezuchan/nezu-gateway.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -45,7 +45,7 @@
   "dependencies": {
     "@discordjs/builders": "^1.6.5",
     "@discordjs/collection": "^1.5.3",
-    "@nezuchan/core": "npm:@nezuchan/core@^0.6.10",
+    "@nezuchan/core": "^0.6.11",
     "@sapphire/lexure": "^1.1.5",
     "@sapphire/pieces": "^3.7.0",
     "@sapphire/result": "^2.6.4",
