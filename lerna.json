@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "independent",
+  "packages": [
+    "libs/*",
+    "plugins/*"
+  ],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "push": true,
+      "ignoreChanges": [
+        "**/*.md",
+        "**/tests/**"
+      ],
+      "registry": "https://registry.npmjs.org"
+    },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "push": true,
+      "createRelease": "github",
+      "message": "chore(release): publish"
+    },
+    "create": {
+      "license": "GPL-3.0"
+    }
+  }
+}
