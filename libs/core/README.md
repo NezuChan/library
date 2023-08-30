@@ -6,7 +6,7 @@
 
 **A Core Low Level API for creating Discord bots using @nezuchan/nezu-gateway.**
 
-[![GitHub](https://img.shields.io/github/license/nezuchan/cordis-brokers)](https://github.com/nezuchan/cordis-brokers/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/nezuchan/library)](https://github.com/nezuchan/library/blob/main/LICENSE)
 [![Discord](https://discordapp.com/api/guilds/785715968608567297/embed.png)](https://nezu.my.id)
 
 </div>

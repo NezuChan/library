@@ -10,8 +10,8 @@
       "types": "./dist/index.d.ts"
     },
     "./register": {
-      "import": "./register.js",
-      "types": "./register.d.ts"
+      "import": "./dist/register.js",
+      "types": "./dist/register.d.ts"
     }
   },
   "publishConfig": {
