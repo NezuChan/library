@@ -161,27 +161,6 @@ importers:
         specifier: ^4.7.2
         version: 4.7.2
 
-  plugins/socket.io-plugin:
-    dependencies:
-      '@nezuchan/constants':
-        specifier: ^0.5.6
-        version: 0.5.6
-      '@nezuchan/core':
-        specifier: workspace:^
-        version: link:../../libs/core
-      '@nezuchan/fastify-plugin':
-        specifier: workspace:^
-        version: link:../fastify-plugin
-      '@nezuchan/framework':
-        specifier: workspace:^
-        version: link:../../libs/framework
-      '@sapphire/pieces':
-        specifier: ^3.7.0
-        version: 3.7.0
-      '@sapphire/result':
-        specifier: ^2.6.4
-        version: 2.6.4
-
   plugins/tasker-plugin:
     dependencies:
       '@nezuchan/constants':
