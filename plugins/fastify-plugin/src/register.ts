@@ -6,13 +6,16 @@ import { container } from "@sapphire/pieces";
 import middie from "@fastify/middie";
 import { RouteStore } from "./Stores/RouteStore.js";
 import { PreHandlerStore } from "./Stores/PreHandlerStore.js";
+import { Server } from "socket.io";
 
 export class Api extends Plugin {
     public static [postInitialization](this: FrameworkClient, options: ClientOptions): void {
         this.server = fastify(options.api);
+        this.socket = new Server(this.server.server, options.socket);
         this.stores.register(new RouteStore());
         this.stores.register(new PreHandlerStore());
         container.server = this.server;
+        container.socket = this.socket;
     }
 
     public static async [postLogin](this: FrameworkClient): Promise<void> {
