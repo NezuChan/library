@@ -1,7 +1,7 @@
 {
-  "name": "@nezuchan/tasker-plugin",
-  "version": "0.1.1",
-  "description": "A Tasker Plugins for NezuChan Framework",
+  "name": "@nezuchan/socket.io-plugin",
+  "version": "0.0.0",
+  "description": "A Socket.io Plugins for NezuChan Framework",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -40,9 +40,6 @@
   "type": "module",
   "author": "KagChi",
   "license": "GPL-3.0",
-  "devDependencies": {
-    "@types/amqplib": "^0.10.1"
-  },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
     "plugins": [
@@ -63,7 +60,6 @@
     "@nezuchan/core": "workspace:^",
     "@nezuchan/framework": "workspace:^",
     "@sapphire/pieces": "^3.7.0",
-    "@sapphire/result": "^2.6.4",
-    "amqplib": "^0.10.3"
+    "@sapphire/result": "^2.6.4"
   }
 }
