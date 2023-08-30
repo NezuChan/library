@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/NezuChan/library/compare/@nezuchan/fastify-plugin@0.1.9...@nezuchan/fastify-plugin@0.2.0) (2023-08-30)
+
+
+### Features
+
+* add socket.io to fastify-plugin ([#6](https://github.com/NezuChan/library/issues/6)) ([d1acf54](https://github.com/NezuChan/library/commit/d1acf54389abf43d2f637667d4e593a1db0eff55))
+
+
+
+
+
 ## 0.1.9 (2023-08-27)
 
 
