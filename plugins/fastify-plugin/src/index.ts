@@ -2,6 +2,7 @@ import { FastifyInstance, FastifyServerOptions } from "fastify";
 import { PreHandlerStore } from "./Stores/PreHandlerStore.js";
 import { RouteStore } from "./Stores/RouteStore.js";
 import { Server, ServerOptions } from "socket.io";
+import { Socket, SocketOptions } from "socket.io-client";
 
 export * from "./Lib/Prehandlers/PrehandlerContainerArray.js";
 export * from "./Lib/Prehandlers/PrehandlerContainerSingle.js";
@@ -23,11 +24,13 @@ declare module "@nezuchan/core" {
     interface Client {
         server: FastifyInstance;
         socket: Server;
+        remoteSocket?: Socket;
     }
 
     interface ClientOptions {
         api?: FastifyServerOptions & { port?: number; host?: string };
         socket?: Partial<ServerOptions>;
+        remoteSocket?: Partial<SocketOptions> & { remote?: string };
     }
 }
 
@@ -40,5 +43,6 @@ declare module "@sapphire/pieces" {
     interface Container {
         server: FastifyInstance;
         socket: Server;
+        remoteSocket?: Socket;
     }
 }
