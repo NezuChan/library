@@ -62,7 +62,7 @@
     "@sapphire/snowflake": "^3.5.1",
     "@sapphire/utilities": "^3.13.0",
     "amqp-connection-manager": "^4.1.14",
-    "discord-api-types": "^0.37.55",
+    "discord-api-types": "^0.37.56",
     "ioredis": "^5.3.2",
     "tslib": "^2.6.2"
   }
