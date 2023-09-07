@@ -59,7 +59,10 @@ export class Client extends EventEmitter {
         await this.bindQueue(channel, queue, RabbitMQ.GATEWAY_QUEUE_SEND);
 
         await channel.consume(queue, message => {
-            if (message) this.emit(Events.RAW, JSON.parse(message.content.toString()));
+            if (message) {
+                channel.ack(message);
+                this.emit(Events.RAW, JSON.parse(message.content.toString()));
+            }
         });
     }
 
