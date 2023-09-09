@@ -13,17 +13,17 @@ import { InteractionHandler } from "../Stores/InteractionHandler.js";
 export class UserPermissions extends Precondition {
     public async contextRun(ctx: CommandContext, command: Command, context: { permissions: PermissionsBitField }): Promise<Result<unknown, UserError>> {
         const guildId = ctx.isMessage() ? ctx.message.guildId : ctx.interaction.guildId;
-        const user = ctx.isMessage() ? ctx.message.author : await ctx.interaction.member?.resolveUser({ force: true });
+        const user = ctx.isMessage() ? ctx.message.author : await ctx.interaction.member?.resolveUser({ cache: true });
         const channelId = ctx.isMessage() ? ctx.message.channelId : ctx.interaction.channelId;
         return this.parseConditions(guildId, channelId, user, context);
     }
 
     public async interactionHandlerRun(interaction: BaseInteraction, handler: InteractionHandler, context: { permissions: PermissionsBitField }): Promise<Result<unknown, UserError>> {
-        return this.parseConditions(interaction.guildId, interaction.channelId, await interaction.member?.resolveUser({ force: true }), context);
+        return this.parseConditions(interaction.guildId, interaction.channelId, await interaction.member?.resolveUser({ cache: true }), context);
     }
 
     public async chatInputRun(interaction: BaseInteraction, command: Command, context: { permissions: PermissionsBitField }): Promise<Result<unknown, UserError>> {
-        return this.parseConditions(interaction.guildId, interaction.channelId, await interaction.member?.resolveUser({ force: true }), context);
+        return this.parseConditions(interaction.guildId, interaction.channelId, await interaction.member?.resolveUser({ cache: true }), context);
     }
 
     public messageRun(message: Message, command: Command, context: { permissions: PermissionsBitField }): Promise<Result<unknown, UserError>> {
