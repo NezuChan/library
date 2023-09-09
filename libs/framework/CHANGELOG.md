@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.17](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.16...@nezuchan/framework@0.6.17) (2023-09-09)
+
+
+### Features
+
+* allow to modify command strategy ([9edf472](https://github.com/NezuChan/library/commit/9edf472ab8acd7627b65376694ec5a54ed927533))
+
+
+
+
+
 ## [0.6.16](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.15...@nezuchan/framework@0.6.16) (2023-09-09)
 
 
