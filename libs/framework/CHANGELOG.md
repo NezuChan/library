@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.16](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.15...@nezuchan/framework@0.6.16) (2023-09-09)
+
+
+### Bug Fixes
+
+* dont force fetch ([74b39aa](https://github.com/NezuChan/library/commit/74b39aaf9b9448307e3ef236806d25f7ace8ed33))
+
+
+
+
+
 ## [0.6.15](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.14...@nezuchan/framework@0.6.15) (2023-09-07)
 
 

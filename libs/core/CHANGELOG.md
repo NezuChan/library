@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.14](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.13...@nezuchan/core@0.6.14) (2023-09-09)
+
+**Note:** Version bump only for package @nezuchan/core
+
+
+
+
+
 ## [0.6.13](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.12...@nezuchan/core@0.6.13) (2023-09-07)
 
 
