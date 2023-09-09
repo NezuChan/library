@@ -3,8 +3,8 @@
 import { AutoCompleteInteraction, BaseContextMenuInteraction, CommandInteraction, Message, PermissionsBitField } from "@nezuchan/core";
 import { AliasPiece, AliasPieceOptions, PieceContext } from "@sapphire/pieces";
 import { Awaitable } from "@sapphire/utilities";
-import { Lexer, IUnorderedStrategy } from "@sapphire/lexure";
-import { FlagUnorderedStrategy, FlagStrategyOptions } from "../Lib/FlagUnorderedStrategy.js";
+import { Lexer, IUnorderedStrategy, PrefixedStrategy } from "@sapphire/lexure";
+import { FlagStrategyOptions } from "../Lib/FlagUnorderedStrategy.js";
 import { CommandContext } from "../Lib/CommandContext.js";
 import { PreconditionContainerArray, PreconditionEntryResolvable } from "../Lib/Preconditions/PreconditionContainerArray.js";
 import { PermissionFlagsBits, RESTPostAPIApplicationCommandsJSONBody } from "discord-api-types/v10";
@@ -41,7 +41,7 @@ export class Command extends AliasPiece<CommandOptions> {
         });
 
         this.meta = options.meta ?? {};
-        this.strategy = new FlagUnorderedStrategy(options);
+        this.strategy = options.strategy ?? new PrefixedStrategy(["--", "/"], ["=", ":"]);
         this.preconditions = new PreconditionContainerArray(options.preconditions);
 
         const clientTextPermissions = new PermissionsBitField(PermissionFlagsBits, options.clientPermissions?.text ?? 0n);
@@ -88,6 +88,7 @@ export class Command extends AliasPiece<CommandOptions> {
 
 export interface CommandOptions extends AliasPieceOptions, FlagStrategyOptions {
     quotes?: [string, string][];
+    strategy?: IUnorderedStrategy;
     preconditions?: PreconditionEntryResolvable[];
     chatInput?: RESTPostAPIApplicationCommandsJSONBody;
     contextMenu?: RESTPostAPIApplicationCommandsJSONBody;
