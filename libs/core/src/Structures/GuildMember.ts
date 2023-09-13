@@ -70,7 +70,7 @@ export class GuildMember extends Base<APIGuildMember | GatewayGuildMemberRemoveD
             const everyoneRole = await this.client.resolveRole({ id: this.guildId, guildId: this.guildId });
             if (everyoneRole) roles.push(everyoneRole);
         }
-        return roles;
+        return roles.sort((a, b) => b.position - a.position);
     }
 
     public async resolveUser({ force = false, cache = true }: { force?: boolean; cache?: boolean }): Promise<User | undefined> {
