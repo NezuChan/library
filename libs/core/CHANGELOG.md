@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.16](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.15...@nezuchan/core@0.6.16) (2023-09-13)
+
+
+### Bug Fixes
+
+* properly sort roles based on position ([8d1d8d2](https://github.com/NezuChan/library/commit/8d1d8d273885ac9d16510a7308563da7811f81da))
+
+
+
+
+
 ## [0.6.15](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.14...@nezuchan/core@0.6.15) (2023-09-09)
 
 **Note:** Version bump only for package @nezuchan/core
