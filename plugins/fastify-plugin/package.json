@@ -63,7 +63,7 @@
     "@sapphire/pieces": "^3.7.0",
     "@sapphire/result": "^2.6.4",
     "@sapphire/utilities": "^3.13.0",
-    "fastify": "^4.23.0",
+    "fastify": "^4.23.1",
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.7.2"
   }
