@@ -12,8 +12,8 @@ export class BaseChannel extends Base<APIChannel> {
         return "guild_id" in this.data ? this.data.guild_id : undefined;
     }
 
-    public get name(): string {
-        return this.name;
+    public get name(): string | null {
+        return this.data.name;
     }
 
     public get type(): ChannelType {
