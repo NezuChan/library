@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.17](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.16...@nezuchan/core@0.6.17) (2023-09-16)
+
+
+### Bug Fixes
+
+* properly return channel name ([12def06](https://github.com/NezuChan/library/commit/12def06706821b90165dc2f3de5e29e64b35cada))
+
+
+
+
+
 ## [0.6.16](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.15...@nezuchan/core@0.6.16) (2023-09-13)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.5](https://github.com/NezuChan/library/compare/@nezuchan/fastify-plugin@0.2.4...@nezuchan/fastify-plugin@0.2.5) (2023-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([99f2e19](https://github.com/NezuChan/library/commit/99f2e196e4718ed1a590ee3c8231fde881b6cd32))
+* **deps:** update dependency fastify to ^4.23.2 ([4779d0b](https://github.com/NezuChan/library/commit/4779d0b9bfdadffdbc10381ade9b036631f24ad8))
+
+
+
+
+
 ## [0.2.4](https://github.com/NezuChan/library/compare/@nezuchan/fastify-plugin@0.2.3...@nezuchan/fastify-plugin@0.2.4) (2023-09-13)
 
 **Note:** Version bump only for package @nezuchan/fastify-plugin
