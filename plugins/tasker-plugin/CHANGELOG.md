@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/NezuChan/library/compare/@nezuchan/tasker-plugin@0.1.6...@nezuchan/tasker-plugin@0.1.7) (2023-09-24)
+
+**Note:** Version bump only for package @nezuchan/tasker-plugin
+
+
+
+
+
 ## [0.1.6](https://github.com/NezuChan/library/compare/@nezuchan/tasker-plugin@0.1.5...@nezuchan/tasker-plugin@0.1.6) (2023-09-16)
 
 **Note:** Version bump only for package @nezuchan/tasker-plugin

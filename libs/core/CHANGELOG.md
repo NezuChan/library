@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.18](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.17...@nezuchan/core@0.6.18) (2023-09-24)
+
+
+### Bug Fixes
+
+* add option to fetch if not cached ([a2b39e2](https://github.com/NezuChan/library/commit/a2b39e22da4c824088d48cd5fb9f099516d8a065))
+
+
+
+
+
 ## [0.6.17](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.16...@nezuchan/core@0.6.17) (2023-09-16)
 
 
