@@ -66,7 +66,7 @@ export class Client extends EventEmitter {
         });
     }
 
-    public async resolveMember({ force = false, cache, id, guildId }: { force?: boolean | undefined; cache?: boolean | undefined; id: string; guildId: string }): Promise<GuildMember | undefined> {
+    public async resolveMember({ force = false, fetch = true, cache, id, guildId }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string; guildId: string }): Promise<GuildMember | undefined> {
         if (force) {
             const member = await Result.fromAsync(() => this.rest.get(Routes.guildMember(guildId, id)));
             if (member.isOk()) {
@@ -80,10 +80,12 @@ export class Client extends EventEmitter {
             return new GuildMember({ ...JSON.parse(cached_member), id, guild_id: guildId }, this);
         }
 
-        return this.resolveMember({ id, guildId, force: true, cache: true });
+        if (fetch) {
+            return this.resolveMember({ id, guildId, force: true, cache: true });
+        }
     }
 
-    public async resolveUser({ force = false, cache, id }: { force?: boolean | undefined; cache?: boolean | undefined; id: string }): Promise<User | undefined> {
+    public async resolveUser({ force = false, fetch = true, cache, id }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string }): Promise<User | undefined> {
         if (force) {
             const user = await Result.fromAsync(() => this.rest.get(Routes.user(id)));
             if (user.isOk()) {
@@ -98,10 +100,12 @@ export class Client extends EventEmitter {
             return new User({ ...JSON.parse(cached_user), id }, this);
         }
 
-        return this.resolveUser({ id, force: true, cache: true });
+        if (fetch) {
+            return this.resolveUser({ id, force: true, cache: true });
+        }
     }
 
-    public async resolveGuild({ force = false, cache, id }: { force?: boolean | undefined; cache?: boolean | undefined; id: string }): Promise<Guild | undefined> {
+    public async resolveGuild({ force = false, fetch = true, cache, id }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string }): Promise<Guild | undefined> {
         if (force) {
             const guild = await Result.fromAsync(() => this.rest.get(Routes.guild(id)));
             if (guild.isOk()) {
@@ -116,7 +120,9 @@ export class Client extends EventEmitter {
             return new Guild({ ...JSON.parse(cached_guild), id }, this);
         }
 
-        return this.resolveGuild({ id, force: true, cache: true });
+        if (fetch) {
+            return this.resolveGuild({ id, force: true, cache: true });
+        }
     }
 
     public async resolveRole({ id, guildId }: { id: string; guildId: string }): Promise<Role | undefined> {
@@ -133,7 +139,7 @@ export class Client extends EventEmitter {
         }
     }
 
-    public async resolveChannel({ force = false, cache, id, guildId }: { force?: boolean | undefined; cache?: boolean | undefined; id: string; guildId: string }): Promise<BaseChannel | undefined> {
+    public async resolveChannel({ force = false, fetch = true, cache, id, guildId }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string; guildId: string }): Promise<BaseChannel | undefined> {
         if (force) {
             const channel = await Result.fromAsync(() => this.rest.get(Routes.channel(id)));
             if (channel.isOk()) {
@@ -163,7 +169,9 @@ export class Client extends EventEmitter {
             }
         }
 
-        return this.resolveChannel({ id, guildId, force: true, cache: true });
+        if (fetch) {
+            return this.resolveChannel({ id, guildId, force: true, cache: true });
+        }
     }
 
     public async sendMessage(options: RESTPostAPIChannelMessageJSONBody, channelId: string): Promise<Message> {
