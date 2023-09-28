@@ -41,7 +41,7 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@types/amqplib": "^0.10.1"
+    "@types/amqplib": "^0.10.2"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -59,7 +59,7 @@
     "rules": {}
   },
   "dependencies": {
-    "@nezuchan/constants": "^0.5.6",
+    "@nezuchan/constants": "^0.5.8",
     "@nezuchan/core": "workspace:^",
     "@nezuchan/framework": "workspace:^",
     "@sapphire/pieces": "^3.7.0",

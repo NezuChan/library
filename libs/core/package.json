@@ -30,7 +30,7 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@types/amqplib": "^0.10.1"
+    "@types/amqplib": "^0.10.2"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -54,7 +54,7 @@
   "dependencies": {
     "@cordis/bitfield": "^1.2.0",
     "@discordjs/rest": "^2.0.1",
-    "@nezuchan/constants": "^0.5.6",
+    "@nezuchan/constants": "^0.5.8",
     "@nezuchan/decorators": "^0.1.0",
     "@nezuchan/utilities": "^0.5.1",
     "@sapphire/pieces": "^3.7.0",
@@ -62,7 +62,7 @@
     "@sapphire/snowflake": "^3.5.1",
     "@sapphire/utilities": "^3.13.0",
     "amqp-connection-manager": "^4.1.14",
-    "discord-api-types": "^0.37.56",
+    "discord-api-types": "^0.37.58",
     "ioredis": "^5.3.2",
     "tslib": "^2.6.2"
   }
