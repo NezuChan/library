@@ -30,7 +30,7 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@types/amqplib": "^0.10.1"
+    "@types/amqplib": "^0.10.2"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
@@ -56,7 +56,7 @@
     "@sapphire/result": "^2.6.4",
     "@sapphire/utilities": "^3.13.0",
     "amqplib": "^0.10.3",
-    "discord-api-types": "^0.37.56",
+    "discord-api-types": "^0.37.58",
     "gen-esm-wrapper": "^1.1.3",
     "tslib": "^2.6.2"
   }
