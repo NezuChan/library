@@ -107,7 +107,7 @@ export class Client extends EventEmitter {
 
     public async resolveGuild({ force = false, fetch = true, cache, id }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string }): Promise<Guild | undefined> {
         if (force) {
-            const guild = await Result.fromAsync(() => this.rest.get(Routes.guild(id)));
+            const guild = await Result.fromAsync(() => this.rest.get(Routes.guild(id), { query: new URLSearchParams({ with_counts: true }) }));
             if (guild.isOk()) {
                 const guild_value = guild.unwrap() as APIGuild;
                 if (cache) await this.redis.set(GenKey(this.clientId, RedisKey.GUILD_KEY, id), JSON.stringify(guild_value));
