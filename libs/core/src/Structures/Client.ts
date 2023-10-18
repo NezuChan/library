@@ -111,7 +111,7 @@ export class Client extends EventEmitter {
                 () => 
                     this.rest.get(
                         Routes.guild(id),
-                        withCounts ? { query: new URLSearchParams({ with_counts: true }) } : {}
+                        withCounts ? { query: new URLSearchParams({ with_counts: "true" }) } : {}
                     )
             );
             if (guild.isOk()) {
