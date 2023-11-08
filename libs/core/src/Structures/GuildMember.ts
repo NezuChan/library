@@ -40,8 +40,8 @@ export class GuildMember extends Base<APIGuildMember | GatewayGuildMemberRemoveD
         return this.communicationDisabledUntilTimestamp ? new Date(this.communicationDisabledUntilTimestamp) : null;
     }
 
-    public iconURL(options?: BaseImageURLOptions): string | null {
-        return "avatar" in this.data && this.data.avatar ? this.client.rest.cdn.icon(this.id, this.data.avatar, options) : null;
+    public displayAvatarURL(options?: BaseImageURLOptions): string | null {
+        return "avatar" in this.data && this.data.avatar ? this.client.rest.cdn.guildMemberAvatar(this.guildId!, this.id, this.data.avatar, options) : null;
     }
 
     public async manageable(): Promise<boolean> {
