@@ -60,8 +60,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1(amqplib@0.10.3)
       '@sapphire/pieces':
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.7.1
+        version: 3.7.1
       '@sapphire/result':
         specifier: ^2.6.4
         version: 2.6.4
@@ -103,8 +103,8 @@ importers:
         specifier: ^1.1.5
         version: 1.1.5
       '@sapphire/pieces':
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.7.1
+        version: 3.7.1
       '@sapphire/result':
         specifier: ^2.6.4
         version: 2.6.4
@@ -143,8 +143,8 @@ importers:
         specifier: workspace:^
         version: link:../../libs/framework
       '@sapphire/pieces':
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.7.1
+        version: 3.7.1
       '@sapphire/result':
         specifier: ^2.6.4
         version: 2.6.4
@@ -173,8 +173,8 @@ importers:
         specifier: workspace:^
         version: link:../../libs/framework
       '@sapphire/pieces':
-        specifier: ^3.7.0
-        version: 3.7.0
+        specifier: ^3.7.1
+        version: 3.7.1
       '@sapphire/result':
         specifier: ^2.6.4
         version: 2.6.4
@@ -537,7 +537,7 @@ packages:
   /@nezuchan/decorators@0.1.0:
     resolution: {integrity: sha512-g4vgL9BFjzp/0gwDSXpnmyZS4kG4TvhZe0GDSpWzhc/UM5J3VSc6LDXZIbQpWRjdHEJO4NE+xGMCQde9Am+yaQ==}
     dependencies:
-      '@sapphire/pieces': 3.7.0
+      '@sapphire/pieces': 3.7.1
       '@sapphire/utilities': 3.13.0
     dev: false
 
@@ -909,8 +909,8 @@ packages:
       '@sapphire/result': 2.6.4
     dev: false
 
-  /@sapphire/pieces@3.7.0:
-    resolution: {integrity: sha512-DgkcvTja63rDPP4uByH2Ky3eNaYp+Yc1WoFaOsme5w5Nptruwj49sktY6KEbdBrxz23l3ofcxaqnfT/8RROJug==}
+  /@sapphire/pieces@3.7.1:
+    resolution: {integrity: sha512-ORjeFRRKaUrDuXMMZ4fUKBOm2olI55urAZbcw9Bfx7wu/JEo55UxuqQUMMvKwYZ3zK4A6A0OswkzSjf0H02v0Q==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
