@@ -41,7 +41,7 @@
   "author": "KagChi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "@types/amqplib": "^0.10.2"
+    "@types/amqplib": "^0.10.4"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
