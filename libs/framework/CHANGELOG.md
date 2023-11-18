@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.21](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.20...@nezuchan/framework@0.6.21) (2023-11-18)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#22](https://github.com/NezuChan/library/issues/22)) ([002d346](https://github.com/NezuChan/library/commit/002d3469048b0f2df180340b11fb76233f7deaaf))
+* **deps:** update all non-major dependencies ([#35](https://github.com/NezuChan/library/issues/35)) ([2817e59](https://github.com/NezuChan/library/commit/2817e59f298aab90662d40eea94e2d80a8736241))
+* **deps:** update dependency @discordjs/collection to v2 ([#43](https://github.com/NezuChan/library/issues/43)) ([a87cb5b](https://github.com/NezuChan/library/commit/a87cb5bbcedebadb74862ae6f7958ecac8ee46dd))
+* **deps:** update dependency @sapphire/pieces to ^3.10.0 ([f3cde93](https://github.com/NezuChan/library/commit/f3cde93376026fd81465f915d3052e3721336efc))
+* **deps:** update dependency @sapphire/pieces to ^3.7.1 ([0f52f03](https://github.com/NezuChan/library/commit/0f52f03d3357f0cebe1c541df748184f53b8d2c9))
+* **deps:** update dependency @sapphire/pieces to ^3.9.0 ([4bd85e8](https://github.com/NezuChan/library/commit/4bd85e86b973bbdf1294e004c75836094ea85559))
+
+
+
+
+
 ## [0.6.20](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.19...@nezuchan/framework@0.6.20) (2023-09-24)
 
 **Note:** Version bump only for package @nezuchan/framework
