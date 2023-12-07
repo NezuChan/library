@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.20](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.19...@nezuchan/core@0.6.20) (2023-12-07)
+
+
+### Bug Fixes
+
+* add option to set http proxy ([a94d1a8](https://github.com/NezuChan/library/commit/a94d1a8f51a2c72453d5b92aabcbdc411de1477a))
+* **deps:** update all non-major dependencies ([ed77e7f](https://github.com/NezuChan/library/commit/ed77e7f22fbc6d32a4c136fef4c4647a02725543))
+* **deps:** update sapphire dependencies ([3a34b73](https://github.com/NezuChan/library/commit/3a34b73e086a41be67e0c1b962bc7761033435f8))
+
+
+
+
+
 ## [0.6.19](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.18...@nezuchan/core@0.6.19) (2023-11-18)
 
 

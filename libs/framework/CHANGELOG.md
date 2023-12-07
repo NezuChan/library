@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.22](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.21...@nezuchan/framework@0.6.22) (2023-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update sapphire dependencies ([3a34b73](https://github.com/NezuChan/library/commit/3a34b73e086a41be67e0c1b962bc7761033435f8))
+
+
+
+
+
 ## [0.6.21](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.20...@nezuchan/framework@0.6.21) (2023-11-18)
 
 

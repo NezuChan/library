@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.9](https://github.com/NezuChan/library/compare/@nezuchan/tasker-plugin@0.1.8...@nezuchan/tasker-plugin@0.1.9) (2023-12-07)
+
+
+### Bug Fixes
+
+* **deps:** update sapphire dependencies ([3a34b73](https://github.com/NezuChan/library/commit/3a34b73e086a41be67e0c1b962bc7761033435f8))
+
+
+
+
+
 ## [0.1.8](https://github.com/NezuChan/library/compare/@nezuchan/tasker-plugin@0.1.7...@nezuchan/tasker-plugin@0.1.8) (2023-11-18)
 
 

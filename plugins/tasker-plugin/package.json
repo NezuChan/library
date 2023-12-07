@@ -1,6 +1,6 @@
 {
   "name": "@nezuchan/tasker-plugin",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A Tasker Plugins for NezuChan Framework",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
