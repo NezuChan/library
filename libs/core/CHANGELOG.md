@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.21](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.20...@nezuchan/core@0.6.21) (2023-12-07)
+
+
+### Bug Fixes
+
+* update option ([0d730cd](https://github.com/NezuChan/library/commit/0d730cdf801be8282b4f2eab26f67e3953dc478d))
+
+
+
+
+
 ## [0.6.20](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.19...@nezuchan/core@0.6.20) (2023-12-07)
 
 
