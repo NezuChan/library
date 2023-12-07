@@ -26,7 +26,7 @@ import { Channel } from "amqplib";
 export class Client extends EventEmitter {
     public clientId: string;
     public rest = new REST({
-        api: process.env.PROXY ?? process.env.NIRN_PROXY ?? "https://discord.com/api",
+        api: process.env.HTTP_PROXY ?? process.env.PROXY ?? process.env.NIRN_PROXY ?? "https://discord.com/api",
         rejectOnRateLimit: (process.env.PROXY ?? process.env.NIRN_PROXY) !== undefined ? () => false : null
     });
 
@@ -39,6 +39,10 @@ export class Client extends EventEmitter {
     ) {
         super();
         this.redis = createRedis(this.options.redis);
+
+        if (options.api) {
+            this.rest.options.api = options.api;
+        }
 
         options.token ??= process.env.DISCORD_TOKEN;
         this.clientId = options.clientId ?? Buffer.from(options.token!.split(".")[0], "base64").toString();
@@ -108,11 +112,10 @@ export class Client extends EventEmitter {
     public async resolveGuild({ force = false, fetch = true, withCounts = false, cache, id }: { force?: boolean | undefined; fetch?: boolean; cache?: boolean | undefined; id: string; withCounts?: boolean }): Promise<Guild | undefined> {
         if (force) {
             const guild = await Result.fromAsync(
-                () => 
-                    this.rest.get(
-                        Routes.guild(id),
-                        withCounts ? { query: new URLSearchParams({ with_counts: "true" }) } : {}
-                    )
+                () => this.rest.get(
+                    Routes.guild(id),
+                    withCounts ? { query: new URLSearchParams({ with_counts: "true" }) } : {}
+                )
             );
             if (guild.isOk()) {
                 const guild_value = guild.unwrap() as APIGuild;

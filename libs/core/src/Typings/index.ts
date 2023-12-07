@@ -6,4 +6,5 @@ export interface ClientOptions {
     amqpUrl: string;
     redis: CreateRedisOptions;
     shardIds?: number[] | { start: number; end: number };
+    api?: string;
 }
