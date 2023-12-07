@@ -40,8 +40,8 @@ export class Client extends EventEmitter {
         super();
         this.redis = createRedis(this.options.redis);
 
-        if (options.api) {
-            this.rest.options.api = options.api;
+        if (options.rest) {
+            this.rest.options.api = options.rest;
         }
 
         options.token ??= process.env.DISCORD_TOKEN;
