@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.23...@nezuchan/framework@0.7.0) (2023-12-31)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#50](https://github.com/NezuChan/library/issues/50)) ([ce1f360](https://github.com/NezuChan/library/commit/ce1f36082841e6cb2040d7f4d6f34a1a7cd9cf23))
+* **deps:** update dependency @sapphire/pieces to v4 ([#54](https://github.com/NezuChan/library/issues/54)) ([523bfde](https://github.com/NezuChan/library/commit/523bfdeb8ffdce7667bf7fd06a9466f201f71c50))
+* **deps:** update dependency @sapphire/utilities to ^3.15.1 ([8e259bc](https://github.com/NezuChan/library/commit/8e259bc985ec313796d2856062c1393ede1fb456))
+
+
+
+
+
 ## [0.6.23](https://github.com/NezuChan/library/compare/@nezuchan/framework@0.6.22...@nezuchan/framework@0.6.23) (2023-12-07)
 
 **Note:** Version bump only for package @nezuchan/framework
