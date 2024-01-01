@@ -56,7 +56,7 @@
     "@discordjs/rest": "^2.2.0",
     "@nezuchan/constants": "^0.6.0",
     "@nezuchan/decorators": "^0.2.0",
-    "@nezuchan/utilities": "^0.6.1",
+    "@nezuchan/utilities": "^0.6.2",
     "@sapphire/pieces": "^4.2.0",
     "@sapphire/result": "^2.6.5",
     "@sapphire/snowflake": "^3.5.2",
