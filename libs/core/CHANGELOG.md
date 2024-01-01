@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.1](https://github.com/NezuChan/library/compare/@nezuchan/core@0.7.0...@nezuchan/core@0.7.1) (2024-01-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nezuchan/utilities to ^0.6.2 ([#60](https://github.com/NezuChan/library/issues/60)) ([ca1513a](https://github.com/NezuChan/library/commit/ca1513aba21f544a237e0e76f39f79a9e178590b))
+
+
+
+
+
 # [0.7.0](https://github.com/NezuChan/library/compare/@nezuchan/core@0.6.21...@nezuchan/core@0.7.0) (2023-12-31)
 
 
