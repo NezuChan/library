@@ -59,7 +59,7 @@
     "rules": {}
   },
   "dependencies": {
-    "@nezuchan/constants": "^0.7.0",
+    "@nezuchan/constants": "^0.8.0",
     "@nezuchan/core": "workspace:^",
     "@nezuchan/framework": "workspace:^",
     "@sapphire/pieces": "^4.2.0",
