@@ -22,7 +22,7 @@
     "eslint": "^8.56.0",
     "lerna": "^8.0.1",
     "rimraf": "^5.0.5",
-    "turbo": "^1.11.2",
+    "turbo": "^1.11.3",
     "typescript": "^5.3.3"
   },
   "workspaces": [
