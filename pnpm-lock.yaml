@@ -69,8 +69,8 @@ importers:
         specifier: ^3.5.2
         version: 3.5.2
       '@sapphire/utilities':
-        specifier: ^3.15.1
-        version: 3.15.1
+        specifier: ^3.15.2
+        version: 3.15.2
       amqp-connection-manager:
         specifier: ^4.1.14
         version: 4.1.14(amqplib@0.10.3)
@@ -109,8 +109,8 @@ importers:
         specifier: ^2.6.5
         version: 2.6.5
       '@sapphire/utilities':
-        specifier: ^3.15.1
-        version: 3.15.1
+        specifier: ^3.15.2
+        version: 3.15.2
       amqplib:
         specifier: ^0.10.3
         version: 0.10.3
@@ -149,8 +149,8 @@ importers:
         specifier: ^2.6.5
         version: 2.6.5
       '@sapphire/utilities':
-        specifier: ^3.15.1
-        version: 3.15.1
+        specifier: ^3.15.2
+        version: 3.15.2
       fastify:
         specifier: ^4.25.2
         version: 4.25.2
@@ -538,7 +538,7 @@ packages:
     resolution: {integrity: sha512-AeTk7sqlQNv4qb+HHgzmYtQB65TxeIe1/Tibvi8Tq3n1209x98G5Jh+mLtOQ2gDZ1hfSBeqiFKrwVXJIjtnuIw==}
     dependencies:
       '@sapphire/pieces': 4.2.0
-      '@sapphire/utilities': 3.15.1
+      '@sapphire/utilities': 3.15.2
     dev: false
 
   /@nezuchan/utilities@0.6.2(amqplib@0.10.3):
@@ -918,7 +918,7 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
-      '@sapphire/utilities': 3.15.1
+      '@sapphire/utilities': 3.15.2
       tslib: 2.6.2
     dev: false
 
@@ -940,8 +940,8 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/utilities@3.15.1:
-    resolution: {integrity: sha512-Pce4++kXf+2vgVfO1kEJ2LiZzO8zB2TTyIu6XePHNmNEotcEHkq0RmOSaKw3ElA+5gRvTE269RMwmlAw1twuLg==}
+  /@sapphire/utilities@3.15.2:
+    resolution: {integrity: sha512-pp4+8wHK8C1oFMjA1nwGXT7rgf41NzlRlJi9QIy+PGOOEHjuaUHQRgfzghkJgSJtSKjjoO9KxBQ8YmyCnjlu+g==}
     engines: {node: '>=v14.0.0'}
     dev: false
 
