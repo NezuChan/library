@@ -60,17 +60,17 @@ importers:
         specifier: ^0.6.2
         version: 0.6.2(amqplib@0.10.3)
       '@sapphire/pieces':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.2.2
+        version: 4.2.2
       '@sapphire/result':
-        specifier: ^2.6.5
-        version: 2.6.5
+        specifier: ^2.6.6
+        version: 2.6.6
       '@sapphire/snowflake':
-        specifier: ^3.5.2
-        version: 3.5.2
+        specifier: ^3.5.3
+        version: 3.5.3
       '@sapphire/utilities':
-        specifier: ^3.15.2
-        version: 3.15.2
+        specifier: ^3.15.3
+        version: 3.15.3
       amqp-connection-manager:
         specifier: ^4.1.14
         version: 4.1.14(amqplib@0.10.3)
@@ -100,17 +100,17 @@ importers:
         specifier: workspace:^
         version: link:../core
       '@sapphire/lexure':
-        specifier: ^1.1.6
-        version: 1.1.6
+        specifier: ^1.1.7
+        version: 1.1.7
       '@sapphire/pieces':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.2.2
+        version: 4.2.2
       '@sapphire/result':
-        specifier: ^2.6.5
-        version: 2.6.5
+        specifier: ^2.6.6
+        version: 2.6.6
       '@sapphire/utilities':
-        specifier: ^3.15.2
-        version: 3.15.2
+        specifier: ^3.15.3
+        version: 3.15.3
       amqplib:
         specifier: ^0.10.3
         version: 0.10.3
@@ -143,14 +143,14 @@ importers:
         specifier: workspace:^
         version: link:../../libs/framework
       '@sapphire/pieces':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.2.2
+        version: 4.2.2
       '@sapphire/result':
-        specifier: ^2.6.5
-        version: 2.6.5
+        specifier: ^2.6.6
+        version: 2.6.6
       '@sapphire/utilities':
-        specifier: ^3.15.2
-        version: 3.15.2
+        specifier: ^3.15.3
+        version: 3.15.3
       fastify:
         specifier: ^4.25.2
         version: 4.25.2
@@ -173,11 +173,11 @@ importers:
         specifier: workspace:^
         version: link:../../libs/framework
       '@sapphire/pieces':
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.2.2
+        version: 4.2.2
       '@sapphire/result':
-        specifier: ^2.6.5
-        version: 2.6.5
+        specifier: ^2.6.6
+        version: 2.6.6
       amqplib:
         specifier: ^0.10.3
         version: 0.10.3
@@ -278,7 +278,7 @@ packages:
       '@discordjs/collection': 2.0.0
       '@discordjs/util': 1.0.2
       '@sapphire/async-queue': 1.5.0
-      '@sapphire/snowflake': 3.5.2
+      '@sapphire/snowflake': 3.5.3
       '@vladfrangu/async_event_emitter': 2.2.2
       discord-api-types: 0.37.61
       magic-bytes.js: 1.5.0
@@ -537,14 +537,14 @@ packages:
   /@nezuchan/decorators@0.2.0:
     resolution: {integrity: sha512-AeTk7sqlQNv4qb+HHgzmYtQB65TxeIe1/Tibvi8Tq3n1209x98G5Jh+mLtOQ2gDZ1hfSBeqiFKrwVXJIjtnuIw==}
     dependencies:
-      '@sapphire/pieces': 4.2.1
-      '@sapphire/utilities': 3.15.2
+      '@sapphire/pieces': 4.2.2
+      '@sapphire/utilities': 3.15.3
     dev: false
 
   /@nezuchan/utilities@0.6.2(amqplib@0.10.3):
     resolution: {integrity: sha512-1Nsf9SCzVlCvG61SvwJI9KUwJtXqt8/KGdDVHlPeoQuzo66Kfu1Vr1a/aKKFWArJTocqQ7i70e1quYXn2Tog0g==}
     dependencies:
-      '@sapphire/snowflake': 3.5.2
+      '@sapphire/snowflake': 3.5.3
       amqp-connection-manager: 4.1.14(amqplib@0.10.3)
     transitivePeerDependencies:
       - amqplib
@@ -906,24 +906,24 @@ packages:
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/lexure@1.1.6:
-    resolution: {integrity: sha512-w5oCEPhNdsQjl7mmJF2oE3ZL+c/34iM10Iow5U6ZGCAbtsPgUyh5xgkOU9zTfY6+QLs2fZfTRabLg8WEIjKVmg==}
+  /@sapphire/lexure@1.1.7:
+    resolution: {integrity: sha512-6PqU2/V+w1k4DHbZ8erIH+iaT/kAmLfReiWNUURt1akfrPTWqlVYWfuxkHXF0JMPk53r4NIkZoitiWwGUtPF+Q==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
-      '@sapphire/result': 2.6.5
+      '@sapphire/result': 2.6.6
     dev: false
 
-  /@sapphire/pieces@4.2.1:
-    resolution: {integrity: sha512-pOVCJ8zgIGfFgmNOKBZJJgHoH/9y278JexDVCmA7RBji1Di5QAECWl8N/22abEU3O1W77Hxj1428fV+DdkZ69g==}
+  /@sapphire/pieces@4.2.2:
+    resolution: {integrity: sha512-DvAC+zTgm5o41D6iX+jBjMp+rRmoHPKNYnav6v6vQLTxBJb+iFMmup9ZREiuXdrh1ejrmVRZojnnI59xQgezwQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dependencies:
       '@discordjs/collection': 1.5.3
-      '@sapphire/utilities': 3.15.2
+      '@sapphire/utilities': 3.15.3
       tslib: 2.6.2
     dev: false
 
-  /@sapphire/result@2.6.5:
-    resolution: {integrity: sha512-bpvrUEchle+kekLdZsBj2i3zm/KzSjHn+cndDSpGIbq6fbxS5zbMoxfh3c3afOq6mx07fJL0sv7GCfqARoQg1A==}
+  /@sapphire/result@2.6.6:
+    resolution: {integrity: sha512-QCjj7X/QlY0QUCeAaZQmnrsMH/b2BMQYee3F1Y5iF17JagUQqO3KZlG7vfXWQU3SRAJX5OgZZynBjixUH+nNGg==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
@@ -935,13 +935,13 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@sapphire/snowflake@3.5.2:
-    resolution: {integrity: sha512-FTm9RdyELF21PQN5dS/HLRs90XqWclHa+p0gkonc+BA2X2QKfFySHSjUbO65rmArd/ghR9Ahj2fMfedTZEqzOw==}
+  /@sapphire/snowflake@3.5.3:
+    resolution: {integrity: sha512-jjmJywLAFoWeBi1W7994zZyiNWPIiqRRNAmSERxyg93xRGzNYvGjlZ0gR6x0F4gPRi2+0O6S71kOZYyr3cxaIQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
     dev: false
 
-  /@sapphire/utilities@3.15.2:
-    resolution: {integrity: sha512-pp4+8wHK8C1oFMjA1nwGXT7rgf41NzlRlJi9QIy+PGOOEHjuaUHQRgfzghkJgSJtSKjjoO9KxBQ8YmyCnjlu+g==}
+  /@sapphire/utilities@3.15.3:
+    resolution: {integrity: sha512-K5dFGOB5XvblXFN+Av+Tch/dVBAifmxtZ9/2mFo8VqzbiaFJIRUuoPAoNsp8pWYaU423yV8bfD8WsCSNd9w1YQ==}
     engines: {node: '>=v14.0.0'}
     dev: false
 

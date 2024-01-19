@@ -62,8 +62,8 @@
     "@nezuchan/constants": "^0.8.0",
     "@nezuchan/core": "workspace:^",
     "@nezuchan/framework": "workspace:^",
-    "@sapphire/pieces": "^4.2.1",
-    "@sapphire/result": "^2.6.5",
+    "@sapphire/pieces": "^4.2.2",
+    "@sapphire/result": "^2.6.6",
     "amqplib": "^0.10.3"
   }
 }
